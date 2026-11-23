@@ -1,0 +1,40 @@
+{
+  "intervalo_segundos": 10,
+  "timeout_tcp": 2.0,
+  "timeout_ping": 2,
+  "max_workers": 8,
+  "cooldown_alerta_segundos": 300,
+  "arquivo_log": "historico_rede.csv",
+  "webhook_url": "",
+  "alvos": [
+    {
+      "nome": "Gateway / Roteador",
+      "host": "192.168.1.1",
+      "portas": [
+        80,
+        443
+      ]
+    },
+    {
+      "nome": "Cloudflare DNS",
+      "host": "1.1.1.1",
+      "portas": [
+        53
+      ]
+    },
+    {
+      "nome": "Google DNS",
+      "host": "8.8.8.8",
+      "portas": [
+        53
+      ]
+    },
+    {
+      "nome": "GitHub",
+      "host": "github.com",
+      "portas": [
+        443
+      ]
+    }
+  ]
+}
