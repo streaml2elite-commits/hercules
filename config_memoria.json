@@ -1,0 +1,9 @@
+{
+  "intervalo_segundos": 10,
+  "alerta_ram_percentual": 85.0,
+  "alerta_swap_percentual": 50.0,
+  "top_processos": 5,
+  "cooldown_alerta_segundos": 300,
+  "arquivo_log": "historico_memoria.csv",
+  "webhook_url": ""
+}

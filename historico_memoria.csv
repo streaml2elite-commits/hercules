@@ -1,0 +1,3 @@
+timestamp,ram_usada_mib,ram_disponivel_mib,ram_total_mib,buffers_cache_mib,ram_pct,swap_usada_mib,swap_total_mib,swap_pct,status
+2026-11-23 10:05:04,3410.78,4345.44,7756.22,2734.74,43.97,0.25,8000.0,0.0,NORMAL
+2026-11-23 10:05:14,3499.19,4257.03,7756.22,2821.99,45.11,0.25,8000.0,0.0,NORMAL
